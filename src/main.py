@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 from typing import List, TypedDict, Any, Tuple, Union, Dict, Set, Annotated, Optional
 from pydantic import BaseModel, Field
 
-from dotenv import load_dotenv
+from dotenv import load_dotenv, find_dotenv
 
 from langgraph.graph.message import add_messages
 from langgraph.graph import StateGraph, END, START
@@ -61,3 +61,5 @@ from utils.knowledge_base_operators import (
     extract_audio_path_and_timestamps,
     play_audio_segments_from_s3
 )
+
+
