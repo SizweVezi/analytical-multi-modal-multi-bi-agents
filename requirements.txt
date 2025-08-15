@@ -6,7 +6,7 @@ botocore>=1.34
 requests>=2.32
 
 #
-dotenv
+dotenv~=0.9.9
 
 # Data handling
 pandas>=2.2
@@ -37,3 +37,8 @@ rich>=13.7  # for nice console formatting instead of Jupyter Markdown
 
 # Optional: If you still want async fixes in some environments
 # nest_asyncio>=1.6  # Only needed if running async inside special loops
+
+opensearch-py~=3.0.0
+retrying~=1.4.2
+python-dotenv~=1.1.1
+utils~=1.0.2
